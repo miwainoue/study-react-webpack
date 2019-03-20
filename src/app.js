@@ -1,7 +1,12 @@
 'use strict'
 
-function sum(val1, val2){
-    return val1 + val2
-}
+import React from 'react';
+const createReactClass = require('create-react-class')
 
-module.exports = sum
+const App = createReactClass({
+    render: () => {
+        return <h1>Aplicação</h1>
+    }
+})
+
+export default App;
